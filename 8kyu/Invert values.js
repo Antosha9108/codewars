@@ -10,4 +10,5 @@ function invert(array) {
   }
 }
 
+
 //THIS KATA IS NOT SOLVED YET
