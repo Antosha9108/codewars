@@ -4,3 +4,4 @@ function digitize(n) {
   return Number(arr).reverse()
   })
 }
+// THIS KATA IS NOT SOLVED YET!
