@@ -6,3 +6,8 @@ function greet (name, owner) {
     }
     // Add code here
   }
+
+  // second solution
+  function greet (name, owner) {
+    return name ===owner? 'Hello boss' : 'Hello guest'
+  }
