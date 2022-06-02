@@ -1,8 +1,9 @@
 function enough(cap, on, wait) {
-    if (cap - (on+wait)==0){
+    let good = cap- (on+wait)
+    if (good<0){
+    return Math.abs(good)
+    } else if (good >=0){
       return 0
-    } else {
-      return (cap - (on+wait))
     }
-    // your code here
-  }
+    }
+    
