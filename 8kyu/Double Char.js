@@ -1,7 +1,1 @@
-function doubleChar(str) {
-    arr = str.split('')
-    for (let i=0;i=arr.length;i++) {
-        return i+i
-  }
-}
-  
+let doubleChar= str => str.split('').map((a)=>a+a).join('')
