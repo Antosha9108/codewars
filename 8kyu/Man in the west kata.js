@@ -1,0 +1,1 @@
+let checkTheBucket = bucket => bucket.includes('gold') ? true:false
