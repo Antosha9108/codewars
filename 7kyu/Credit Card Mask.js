@@ -22,3 +22,12 @@ if (cc.length<= 4){
 //P:  first we need to determine if the string is longer that 4 characters and if it's not just return the string. 
 //      if it is longer we need to split the string in 2 parts: everything before the last 4 and the last for. 
 // we can multiply # by the length of the first string and then concatenate it with the last 4 characters. (or join them up if we will use arrays)
+
+//refactored with padStart()
+function maskify(cc) {
+    let firstHalf = cc.slice(0,-4)
+  return cc.slice(-4).padStart(cc.length,'#')
+  }
+  
+
+  //cc.slice(-4)(last four digits) is now the current string for the padStart() method. the first param method is the length of the original cc string(16 characters) and will fill that length up with '#'
