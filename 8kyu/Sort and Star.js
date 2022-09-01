@@ -10,3 +10,5 @@ return word.split('').join('***')
 //   word. after that we need to input *** between every letter
 
 
+//one liner 
+// s.sort()[0].split('').join('***')
