@@ -1,0 +1,1 @@
+let opposite = num => num -=num*2
