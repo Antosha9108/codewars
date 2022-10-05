@@ -7,3 +7,9 @@ function tea42(input) {
   }
   return input.join('')
 };
+
+
+// refactored w/ regex
+// function tea42(input) {
+//     return input.toString().replace(/2/g,'t')
+//   };
