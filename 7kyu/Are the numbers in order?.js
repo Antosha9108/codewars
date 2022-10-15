@@ -1,10 +1,11 @@
 
 
 function inAscOrder(arr) {
-  let array = arr
-  let sortedArr = arr.sort((a,b)=> a-b)  
-  console.log(array)
+   let str = arr.join("")
+  let sortedArr = arr.sort((a,b)=> a-b).join('')
+  console.log(str)
   console.log(sortedArr)
+  return str ===sortedArr
 
 //   P an array of integers
 //   R bool
