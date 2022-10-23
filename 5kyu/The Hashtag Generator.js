@@ -1,19 +1,18 @@
 function generateHashtag (str) {
     let capitalize = str => str.charAt(0).toUpperCase() + str.slice(1)
-    let array = str.split(' ').map((word)=> capitalize(word)).join('')
+    let convertedString = str.split(' ').map((word)=> capitalize(word)).join('')
     let hash = '#';
-    console.log(array)
-    if (array === ''){
+    // console.log(convertedString)
+    if (convertedString === ''){
       return false
-    } else if (array.length >=140){
+    } else if (convertedString.length >=140){
       return false
     } else {
-      return '#' + array
+      return '#' + convertedString
   //     return array
     }
     
   }
-
 
 // P string
 // R bool or the string with hashtag
