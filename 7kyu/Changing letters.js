@@ -14,3 +14,7 @@ function swap (string) {
 // P first we need to split the string into an array
 //   we can map through an array and if element is equal a, e, i, o, u we return it uppercased
 //   the we can join the array back into string
+
+//Optimized solution
+// const vowels = ["a", "e", "i", "o", "u"];
+// const swap = s => s.split('').map(x => vowels.includes(x) ? x.toUpperCase() : x).join('');
