@@ -4,4 +4,4 @@ var cubeChecker = function (volume, side) {
     } else {
         return volume === side * side * side;
     }
-};
+}; 
