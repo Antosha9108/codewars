@@ -19,3 +19,21 @@ function missingWord(nums, str) {
 //   we also need to add the conditional that if any of nums are longer than str.length return
 //   no mission today
   
+
+function missingWord(nums, str) {
+    let newStr = str.replaceAll(' ','')
+     nums.sort((a,b)=>a-b)
+     
+     let answer =nums.map(el =>newStr[el]).join('').toLowerCase()
+     return Math.max(...nums) > newStr.length ? "No mission today" : answer
+    
+    }
+   
+   
+   
+   // first we remove the spaces
+   //   sort the numbers
+   //   we map through the numbers array and return the elements from the newStr at [el] index
+   //   then lower case it
+   
+   //   finally get ternary for the answer length
