@@ -10,3 +10,7 @@ function bandNameGenerator(str) {
 // E knife => the knife, tart => Tartart.
 // P we can set up a conditional to see if the first and the last
 // letters of the string match. 
+// function bandNameGenerator(str) {
+//   return str[0]===str[str.length-1] ? 
+//     `${str[0].toUpperCase()}${str.slice(1)}${str.slice(1)}` : `The ${str[0].toUpperCase()}${str.slice(1)}`
+// }
