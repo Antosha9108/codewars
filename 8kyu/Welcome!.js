@@ -34,3 +34,9 @@ function greet(language) {
     // greeting with for in loop and key
 
 }
+//SECOND SOLUTION
+// if (dataBase[language]) {
+//     return dataBase[language];
+//   } else {
+//     return dataBase['english']; // default to English
+//   }
