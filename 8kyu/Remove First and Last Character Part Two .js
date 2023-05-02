@@ -10,3 +10,8 @@ function array(str) {
 
 
 }
+
+//2nd solution
+function array(string) {
+    return string.split(',').slice(1, -1).join(' ') || null
+}
