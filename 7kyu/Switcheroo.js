@@ -7,3 +7,15 @@ function switcheroo(x) {
 function switcheroo(x) {
     return x.split('').map(char => char === 'a' ? 'b' : (char === 'b' ? 'a' : 'c')).join("")
 }
+
+function switcheroo(x) {
+    return x.split('').map(char => {
+        if (char === 'a') {
+            return 'b'
+        } else if (char === 'b') {
+            return 'a'
+        } else {
+            return 'c'
+        }
+    }).join('')
+}
