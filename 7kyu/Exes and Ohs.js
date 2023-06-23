@@ -12,3 +12,17 @@ function XO(str) {
     }
     return count1 == count2
 }
+
+
+function XO(str) {
+    let array = str.toLowerCase().split('')
+
+    let x = array.filter(el => el == 'x')
+    let o = array.filter(el => el == 'o')
+
+    return x.length === o.length
+
+
+}
+
+
